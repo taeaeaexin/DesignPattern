@@ -19,5 +19,8 @@ public class Test {
         t1.move();
         t2.move();
         t3.move();
+
+        // 만약 Car 객체 대신 새로운 SportsCar 객체가 필요하다
+        // Test.java는 변화의 내용을 모름
     }
 }

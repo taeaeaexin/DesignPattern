@@ -7,7 +7,9 @@ public class TransportationFactory {
 
         switch(clsf) {
             case "A" : t = new AirPlane(); break;
-            case "C" : t = new Car(); break;
+            // Car 객체 대신 SportsCar 객체로 변경
+//            case "C" : t = new Car(); break;
+            case "C" : t = new SportsCar(); break;
             case "H" : t = new Helicopter(); break;
         }
 
